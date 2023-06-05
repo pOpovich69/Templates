@@ -4,12 +4,16 @@
     border: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body{
+    position: relative;
+}
 a{
     text-decoration: none;
     color: #fff;
 }
 h1{
     font-size: 40px;
+    margin-bottom: 40px;
     padding-top: 30px;
     text-align: center;
     color: #fff;
@@ -62,11 +66,12 @@ h1{
     font-size: 20px;
 }
 .main{
-    height: calc(100vh - 75px - 40px);
+    height: 100%;
 }
 .main__content{
+    min-height: calc(100vh - 75px - 40px);
     background-color: #131212;
-    height: 100%;
+
 }
 .footer{
     height: 40px;
@@ -95,11 +100,9 @@ h1{
 }
 
 .sign__form {
-    height: calc(100% - 40px);
+    min-height: calc(100% - 40px - 75px);
 }
 .form__content{
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,5 +1,5 @@
 .welcome__block {
-    height: 100%;
+    min-height: calc(100vh - 75px - 40px);
     display: flex;
     flex-direction: column;
     justify-content: center;

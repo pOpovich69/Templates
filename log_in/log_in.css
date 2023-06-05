@@ -2,3 +2,9 @@
     height: 100%;
     background-color: #292929;
 }
+.remember__lable span{
+    font-size: 18px;
+}
+.remember__lable input{
+    padding: 0;
+}
