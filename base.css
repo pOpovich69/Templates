@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
 }
 body{
     position: relative;
@@ -17,6 +18,9 @@ h1{
     padding-top: 30px;
     text-align: center;
     color: #fff;
+}
+button{
+    cursor: pointer;
 }
 .bg__img{
     width: 100%;
@@ -112,7 +116,6 @@ h1{
     margin-bottom: 5px;
     font-size: 24px;
     padding: 5px;
-    outline: none;
     border-radius: 7px;
 }
 .form__content label{
@@ -125,5 +128,4 @@ h1{
     padding: 10px 50px;
     border-style: none;
     border-radius: 7px;
-    cursor: pointer;
 }

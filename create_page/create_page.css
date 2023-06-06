@@ -1,13 +1,33 @@
 .create-post__form {
     max-width: 720px;
     margin: 0 auto;
+    padding: 0px 10px;
 }
 .crate-post__inputs {
     display: flex;
     flex-direction: column;
 }
 .crate-post__inputs label{
-    margin-bottom: 10px;
     color: #fff;
-
+    font-size: 24px;
+}
+#create-post__title{
+    width: 300px;
+    font-size: 20px;
+    padding: 5px;
+}
+#create-post__text{
+    min-height: 300px;
+    font-size: 20px;
+    padding: 5px;
+}
+.create-post__btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-post__btns button{
+    margin-top: 20px;
+    padding: 5px 30px;
+    font-size: 24px;
 }
