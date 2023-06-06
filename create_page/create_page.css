@@ -1,0 +1,13 @@
+.create-post__form {
+    max-width: 720px;
+    margin: 0 auto;
+}
+.crate-post__inputs {
+    display: flex;
+    flex-direction: column;
+}
+.crate-post__inputs label{
+    margin-bottom: 10px;
+    color: #fff;
+
+}
